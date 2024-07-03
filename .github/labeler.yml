@@ -1,0 +1,9 @@
+# Add 'Host' label to any changes within 'nimble/host' folder or any subfolders
+Host:
+  - changed-files:
+      - any-glob-to-any-file: nimble/host/**
+
+# Add 'Controller' label to any changes within 'nimble/controller' folder or any subfolders
+Controller:
+  - changed-files:
+      - any-glob-to-any-file: nimble/host/**
