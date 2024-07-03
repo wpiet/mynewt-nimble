@@ -24,6 +24,7 @@
 extern "C" {
 #endif
 
+/** test ci */
 #include "syscfg/syscfg.h"
 
 #if MYNEWT_VAL(BLE_FEM_PA)
