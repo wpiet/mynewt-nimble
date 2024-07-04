@@ -24,6 +24,7 @@
 extern "C" {
 #endif
 
+/** test */
 /* Transceiver specific defintions */
 /* NOTE: we have to account for the RTC output compare issue */
 #define XCVR_PROC_DELAY_USECS         (230)

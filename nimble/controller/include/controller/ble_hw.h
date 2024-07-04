@@ -32,7 +32,8 @@ extern "C" {
 #define BLE_USES_HW_WHITELIST   MYNEWT_VAL(BLE_HW_WHITELIST_ENABLE)
 #endif
 
-/* Returns the number of hw whitelist elements */
+/* Returns the number of hw whitelist elements
+ * test */
 uint8_t ble_hw_whitelist_size(void);
 
 /* Clear the whitelist */
