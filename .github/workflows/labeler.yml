@@ -36,3 +36,9 @@ jobs:
         with:
           sync-labels: true
           configuration-path: .github/labeler_cfg.yml
+
+      - name: Assign labels based on the PR's size
+        uses: codelytv/pr-size-labeler@v1.10.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ignore_file_deletions: true
