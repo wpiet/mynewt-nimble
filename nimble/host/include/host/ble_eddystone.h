@@ -25,10 +25,6 @@
  * @defgroup bt_eddystone Eddystone - BLE beacon from Google
  * @ingroup bt_host
  * @{
- * testing ci
- *
- *
- * xxx
  */
 
 #include <inttypes.h>
