@@ -25,6 +25,22 @@
  * @defgroup bt_eddystone Eddystone - BLE beacon from Google
  * @ingroup bt_host
  * @{
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
  */
 
 #include <inttypes.h>
