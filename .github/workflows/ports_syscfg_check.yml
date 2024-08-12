@@ -19,12 +19,7 @@
 
 name: Check ports syscfg update
 
-on:
-  push:
-    branches:
-      - 'master'
-  schedule:
-    - cron: '37 21 * * *'
+on: pull_request_target
 
 jobs:
   targets:
@@ -33,7 +28,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    if: github.event.repository.fork == false
+#    if: github.event.repository.fork == false
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-go@v3
@@ -92,6 +87,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: |
             porting: Update ports syscfg
