@@ -119,7 +119,8 @@ int ble_hs_id_copy_addr(uint8_t id_addr_type, uint8_t *out_id_addr,
  *                                  suitable address.
  *                              Other BLE host core code on error.
  */
-int ble_hs_id_infer_auto(int privacy, uint8_t *out_addr_type);
+int ble_hs_id_infer_auto
+(int privacy,uint8_t    *out_addr_type);
 
 #ifdef __cplusplus
 }

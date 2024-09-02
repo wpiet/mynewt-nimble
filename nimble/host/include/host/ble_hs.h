@@ -369,7 +369,7 @@ struct ble_hs_cfg {
 };
 
 /** Configuration structure for the NimBLE Host stack. */
-extern struct ble_hs_cfg ble_hs_cfg;
+extern struct ble_hs_cfg     ble_hs_cfg;
 
 /**
  * @}
@@ -459,7 +459,8 @@ void ble_hs_init(void);
  *
  * @return                      SYSDOWN_IN_PROGRESS. 
  */
-int ble_hs_shutdown(int reason);
+int ble_hs_shutdown
+(int reason);
 
 #ifdef __cplusplus
 }
