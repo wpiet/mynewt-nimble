@@ -1,5 +1,5 @@
-API for btshell app
--------------------
+Usage
+=====
 
 "btshell" is one of the sample applications that come with Mynewt. It is a shell application which provides a basic
 interface to the host-side of the BLE stack. "btshell" includes all the possible roles (Central/Peripheral) and they may
@@ -18,13 +18,6 @@ characteristics from peer devices. For descriptions of the full API, go to the n
    :local:
    :depth: 2
 
-.. toctree::
-   :hidden:
-   :titlesonly:
-
-   GAP <btshell_GAP>
-   GATT <btshell_GATT>
-   btshell_advdata
 
 Set device address.
 ~~~~~~~~~~~~~~~~~~~
